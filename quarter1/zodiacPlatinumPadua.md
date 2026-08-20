@@ -66,10 +66,10 @@ def main():
 if __name__ == "__main__":
     main()
 
-   **Test Case 1:** 
+   Test Case 1(Valid): 
    Enter your birth year: 2000
    Your Chinese Zodiac Sign is: Dragon (龙 / Lóng)
 
-   **Test Case 2:** 
+   Test Case 2(Invalid): 
    Enter your birth year: 1800
    Invalid Year, it should not be earlier than 1900
