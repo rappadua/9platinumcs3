@@ -1,4 +1,1 @@
-Name: Rayne Ashree P. Padua
-Section: 9 - Platinum
-Birthday: March 10, 2012
-Interest/s: Eating yummy food, trying new things, sleeping, watching anime, and listening to music
+My full name is RAYNE ASHREE P. PADUA, my section is 9 - PLATINUM, and this will be my repository for SY 2026-2027.
