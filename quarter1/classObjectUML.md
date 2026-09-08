@@ -67,4 +67,4 @@ watch1 and watch2 demonstrated independence because executing watch1.log_steps(5
 The class diagram serves as an abstract blueprint defining the general structure, attribute names, data types, and methods for any SmartWatch. In contrast, the object diagram represents specific, real instances in memory at a particular point in time, holding concrete values like device_id = "SW-101" and step_count = 7500. The class diagram shows what capabilities exist, while the object diagram shows what state exists right now.
 
 ## Run Test
-![Object Diagram](
+![Run_Test](images/oopactrunpart2.jpg)
