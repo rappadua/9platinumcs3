@@ -50,7 +50,7 @@ No major changes were made to the overall concept. The property names were adjus
 +-----------------------------------------------+
 
 ## Object Diagram
-![Object Diagram](images/classDiagram.jpeg)
+![Object Diagram](images/objectDiagram.jpeg)
 
 ## Analysis
 
