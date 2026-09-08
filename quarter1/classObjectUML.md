@@ -18,7 +18,7 @@
 | GetsDeviceStatus() | It shows the current battery level of the watch and total steps of the user |
 
 ## Class Diagram
-![Class Diagram](images/classDiagram.png)
+![Class Diagram](images/classDiagram.jpeg)
 
 # Reflection Questions:
 1. I chose Smart Watch class because wearable technology relies heavily on object-oriented concepts to manage multiple real-time sensors, hardware parameters, and user preferences within a single device.
