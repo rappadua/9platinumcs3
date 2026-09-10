@@ -5,8 +5,8 @@
 [Part II - Class Attributes and Methods](classObjectUML.md)
 
 ## Existing Class
-Class:
-Description:
+Class: SmartWatch
+Description: This class represents a wearable smart fitness tracker and watch in a personal productivity system. It manages device settings, tracks physical activity, and monitors key health metrics in real time.
 
 ## New Related Class
 Class:
