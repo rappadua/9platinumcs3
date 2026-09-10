@@ -10,7 +10,7 @@ Description: This class represents a wearable smart fitness tracker and watch in
 
 ## New Related Class
 Class:
-Description:
+Description: 
 
 ## Association
 Relationship:
