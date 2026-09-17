@@ -28,7 +28,7 @@ Explanation: One user account can manage zero or multiple smartwatches (e.g., da
 [View Python Source](classImplementation.py)
 
 ## Test Run
-![Relationship Test Run](/images/relationshipTestRun.jpg)
+[Relationship Test Run](./images/relationshipTestRun.jpg)
 
 ## Object Relationship Diagram
 ![Object Relationship Diagram]()
