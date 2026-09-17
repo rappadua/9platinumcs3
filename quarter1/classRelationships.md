@@ -22,7 +22,7 @@ Multiplicity: One-to-Many
 Explanation: One user account can manage zero or multiple smartwatches (e.g., daily wear vs. sport tracking). However, each individual smartwatch object is owned by exactly one primary user account in this system.
 
 ## UML Class Relationship Diagram)
-![Class Relationship Diagram](quarter1/images/UMLclassrelationshipdiagram.jpg)
+![Class Relationship Diagram](./images/UMLclassrelationshipdiagram.jpg)
 
 ## Python Implementation
 [View Python Source](classImplementation.py)
