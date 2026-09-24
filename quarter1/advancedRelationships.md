@@ -5,11 +5,14 @@
 
 [classRel](classRelationships.md)
 
-## Existing System Description: The previous system managed user accounts and smartwatches. However, general device properties, like device_id and brand, were tied exclusively to the smartwatch, limiting expandability. Additionally, sensor hardware was modeled as a simple boolean flag rather than an internal component.
+## Existing System Description: 
+The previous system managed user accounts and smartwatches. However, general device properties, like device_id and brand, were tied exclusively to the smartwatch, limiting expandability. Additionally, sensor hardware was modeled as a simple boolean flag rather than an internal component.
 
 ## Inheritance Relationship
 Parent: Device
+
 Child: SmartWatch
+
 Explanation: SmartWatch IS-A specific type of Device. It inherits universal hardware attributes (device_id and brand) and methods (get_device_info()) from Device while extending functionality with step counting and sensor management.
 
 ## Inheritance UML
@@ -17,6 +20,7 @@ Explanation: SmartWatch IS-A specific type of Device. It inherits universal hard
 
 ## Composition/Aggregation
 Relationship: Composition, Strong HAS-A, between SmartWatch and HeartRateSensor.
+
 Explanation: A SmartWatch owns a HeartRateSensor. The HeartRateSensor is instantiated directly inside the SmartWatch initializer (__init__). If the SmartWatch object is destroyed, its internal HeartRateSensor instance is also destroyed.
 
 ## Advanced UML Diagram
