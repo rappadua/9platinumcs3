@@ -16,7 +16,7 @@ Child: SmartWatch
 Explanation: SmartWatch IS-A specific type of Device. It inherits universal hardware attributes (device_id and brand) and methods (get_device_info()) from Device while extending functionality with step counting and sensor management.
 
 ## Inheritance UML
-![Inheritance](images/inheritanceDiagram.png)
+![Inheritance](images/inheritanceDiagram.jpg)
 
 ## Composition/Aggregation
 Relationship: Composition, Strong HAS-A, between SmartWatch and HeartRateSensor.
@@ -24,7 +24,7 @@ Relationship: Composition, Strong HAS-A, between SmartWatch and HeartRateSensor.
 Explanation: A SmartWatch owns a HeartRateSensor. The HeartRateSensor is instantiated directly inside the SmartWatch initializer (__init__). If the SmartWatch object is destroyed, its internal HeartRateSensor instance is also destroyed.
 
 ## Advanced UML Diagram
-![Advanced UML](images/advancedClassDiagram.png)
+![Advanced UML](images/advancedClassDiagram.jpg)
 
 ## Python Implementation
 [Source Code](advancedRelationships.py)
@@ -33,7 +33,7 @@ Explanation: A SmartWatch owns a HeartRateSensor. The HeartRateSensor is instant
 ![Test](images/advancedTestRun.png)
 
 ## Object Diagram
-![Objects](images/advancedObjectDiagram.png)
+![Objects](images/advancedObjectDiagram.jpg)
 
 ## Reflection
 Answers:
