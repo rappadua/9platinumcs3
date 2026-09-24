@@ -5,3 +5,4 @@ My full name is RAYNE ASHREE P. PADUA, my section is 9 - PLATINUM, and this will
 * [Class Object UML](quarter1/classObjectUML.md)
 * [Class Attributes Methods](quarter1/classAttributesMethods.md)
 * [Class Relationships](quarter1/classRelationships.md)
+* [Advanced Class Relationships](quarter1/advancedRelationships.md)
