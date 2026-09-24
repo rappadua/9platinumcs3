@@ -30,7 +30,7 @@ Explanation: A SmartWatch owns a HeartRateSensor. The HeartRateSensor is instant
 [Source Code](advancedRelationships.py)
 
 ## Test Run
-![Test](images/advancedTestRun.png)
+![Test](images/advancedTestRun.jpeg)
 
 ## Object Diagram
 ![Objects](images/advancedObjectDiagram.jpg)
