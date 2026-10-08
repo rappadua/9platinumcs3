@@ -1,4 +1,6 @@
-My full name is RAYNE ASHREE P. PADUA, my section is 9 - PLATINUM, and this will be my repository for SY 2026-2027.
+## Name: Rayne Ashree P. Padua
+## Grade & Section: 9 - Platinum
+## S.Y.: 2026 - 2027
 
 ## Quarter 1
 * [Activity 1: Computational Thinking Exercise](quarter1/ctskillsPlatinumPadua.md)
