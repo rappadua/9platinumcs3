@@ -64,7 +64,7 @@ pub1 = Publication(
 book1 = Book("The Hobbit", "J.R.R. Tolkien", 310)
 mag1 = Magazine("National Geographic", "Various Authors", 202)
 
-# Printing Publication Information
+# Printing Publication Information and setting invalid output for testing
 print("Publication Information:")
 pub1.display_info()
 
