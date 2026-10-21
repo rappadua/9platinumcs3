@@ -1,14 +1,18 @@
+#create the class named "BankAccount"
 class BankAccount:
+  #intialize the private attributes by using double underscores
   def __init__(self, account_number: int, balance: float):
     #Private attributes
     self.__account_number = account_number
     self.__balance =0.0
-    #Use setters to initialize value safely
+    #it passes initial values through setter methods to make sure validation rules apply
     self.set_account_number(account_number)
     self.set_balance(balance)
     
 #Setter methods
+#this is the Public Setter method for account_number
 def set_account_number(self, account_number: int):
+  #directly update the private attribute __account_number
   self,__accounnt_number = account_number
 
 def set_balance(self, balance: float):
