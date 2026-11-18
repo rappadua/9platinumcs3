@@ -1,3 +1,24 @@
 #create parent class named "Patient"
 class Patient: 
+#define and initialize self, name, and bill_amount 
 def __init__(self, name, bill_amount):
+#encapsulate the private attributes by using underscores
+self.__name = name
+self.__bill_amount = bill_amount
+
+#input the getter methods for name
+def get_name(self):
+return self.__name
+
+#inout the setter methods for name
+def set_name(self):
+self.__name = name
+
+#input the getter methods for bill amount
+def get_bill_amount(self):
+return self.__bill_amount
+
+#input the setter methods for bill amount
+def set_bill_amount(self):
+self.__bill_amount = bill_amount
+
