@@ -46,7 +46,11 @@ class PhilHealthPatient(Patient):
 #override the calculate_bill to apply a 15% discount for the phil health patient
   def calculate_bill(self):
 #the original bill amount is multiplied by (1-0.15)
-    
+
+#testing or execution
+if __name__ == "__main__":
+    print("Hospital Billing System")
+    print("-----------------------")
 
     #this creates the patient's instances with a base bill of ₱15,000.00
     #each object represents a different patient type with an original bill of ₱15,000.00 (Regular, Senior, or PhilHealth)
