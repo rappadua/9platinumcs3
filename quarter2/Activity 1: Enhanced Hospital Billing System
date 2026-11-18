@@ -1,2 +1,3 @@
 #create parent class named "Patient"
 class Patient: 
+def __init__(self, name, bill_amount):
