@@ -1,1 +1,2 @@
-
+#create parent class named "Patient"
+class Patient: 
