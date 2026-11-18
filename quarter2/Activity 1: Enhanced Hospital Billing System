@@ -22,3 +22,22 @@ return self.__bill_amount
 def set_bill_amount(self):
 self.__bill_amount = bill_amount
 
+#add the base calculation method, no discounts for regular patients
+def calculate_bill(self):
+return self.__bill_amount
+
+#this is the method that displays the patient type for regular patients
+def display_patient_type(self):
+print("Patient Type: Regular Patient")
+
+#create child class 1
+class SeniorPatient(Patient):
+#override the calculate_bill to apply a 20% discount for the senior patient
+def calculate_bill(self):
+#the original bill amount is multiplied by (1-0.20)
+return self.get_bill_amount() * 0.80
+
+#override the display_patient_type for senior citizens/patients
+def display_patient_type(self):
+print("Patient Type: Senior Patient")
+
