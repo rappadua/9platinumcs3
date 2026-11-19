@@ -5,4 +5,4 @@ Answer: Duck typing is a concept related to dynamic typing where an object's sui
 Answer: The Car class needed to have a method with the exact same name as the one being called in the loop, allowing it to exhibit the required behavior without needing a parent-child relationship.
 
 # Python Code
-[Code Implementation – Duck Typing and Polymorphism Without Inheritance](Activity2:DuckTyping&PolymorphismWithoutInheritanceCode.py)
+[Code Implementation – Duck Typing and Polymorphism Without Inheritance](quarter2/Activity2:DuckTyping&PolymorphismWithoutInheritanceCode.py)
