@@ -4,12 +4,10 @@ class Car:
     def move(self):
         print("The car drives on the road.")
 
-
 class Boat:
     # the move() method is specific to the boat class
     def move(self):
         print("The boat sails on water.")
-
 
 class Drone:
     # the move() method is specific to the drone class
@@ -20,7 +18,6 @@ class Drone:
 def start_trip(vehicle):
     vehicle.move()
 
-
 # this is the testing or execution part
 if __name__ == "__main__":
     
@@ -29,7 +26,6 @@ if __name__ == "__main__":
     my_boat = Boat()
     my_drone = Drone()
 
-    
     # lastly, call the start_trip() method for each object, start_trip() handles different objects seamlessly because they all share the same 'move()' method name
     start_trip(my_car)
     start_trip(my_boat)
