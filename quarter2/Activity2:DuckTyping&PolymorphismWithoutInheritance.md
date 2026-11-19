@@ -6,3 +6,6 @@ Answer: The Car class needed to have a method with the exact same name as the on
 
 # Python Code
 [Code Implementation – Duck Typing and Polymorphism Without Inheritance](https://github.com/rappadua/9platinumcs3/blob/75b060e2c3c35f54be70fc7b626b51258057b9ed/quarter2/Code%3ADuckTyping%26PolymorphismWithoutInheritanceCode.py)
+
+## c.) How does the code in 2.2 demonstrate polymorphism?
+Answer: The code demonstrates polymorphism without inheritance, also known as Duck Typing. The start_trip() function can accept an instance of any class, as long as that class implements a move() method. Even though the three classes do not share a common parent class, the function interacts with them uniformly based on the shared behavior, letting different objects respond to the same action in their own unique ways.
